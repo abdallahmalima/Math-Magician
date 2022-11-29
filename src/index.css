@@ -16,6 +16,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 code {
   font-family:
     source-code-pro,
@@ -24,4 +31,38 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.btn-row {
+  display: flex;
+}
+
+.btn {
+  width: 85px;
+  height: 55px;
+  border: 1px solid #d3d3d3;
+  font-weight: 700;
+}
+
+.btn-last {
+  background: #f8943c;
+}
+
+.btn-zero {
+  width: 170px;
+}
+
+.screen {
+  width: 340px;
+  background: #888494;
+  height: 55px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.screen p {
+  color: #fff;
+  padding-inline: 3px;
+  font-size: 27px;
 }
