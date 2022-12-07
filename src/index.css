@@ -23,10 +23,11 @@ body {
   gap: 19px;
 }
 
-.Navbar{
+.Navbar {
   display: flex;
   justify-content: space-between;
   padding-inline: 19px;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .NavLinks {
@@ -35,13 +36,12 @@ body {
 }
 
 .NavLinks li {
-  border-right: 1px solid black;
   list-style: none;
   padding-right: 7px;
 }
 
 .NavLinks li:last-child {
-border: none;
+  border: none;
 }
 
 .CalMain {
@@ -96,7 +96,7 @@ code {
   font-size: 27px;
 }
 
-.CalContainer{
+.CalContainer {
   width: 50%;
   height: 90%;
   display: flex;
@@ -109,17 +109,66 @@ code {
   flex-direction: column;
   gap: 15px;
   padding-inline: 19px;
+  margin-top: 33px;
+  align-items: center;
 }
 
 .homeDesc {
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 29px;
+  width: 71%;
+  border-radius: 19px;
 }
 
 .quoteContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 29px;
+  width: 45%;
+  border-radius: 19px;
+  height: 25%;
+  margin: auto;
+  font-size: 19px;
+}
+
+.NavLink {
+  text-decoration: none;
+  margin-right: 5px;
+  padding: 7px;
+  padding-block: 3px;
+  color: black;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.NavLink:hover {
+  background: #f8943c;
+  font-size: 1.1rem;
+  transition: linear 0.5s;
+}
+
+.NavTitle {
+  color: #f8943c;
+}
+
+.NavLinksDiv {
+  padding-top: 7px;
+}
+
+.calculator-wrapper {
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subTitle {
+  font-size: 29px;
+  font-weight: 500;
+  margin: auto;
+}
+
+.quotor {
+  color: #f8943c;
 }
