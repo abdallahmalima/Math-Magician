@@ -18,9 +18,38 @@ body {
 
 .App {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 19px;
+}
+
+.NavLinks {
+  display: flex;
+  gap: 5px;
+}
+
+.NavLinks li {
+  border-right: 1px solid black;
+  list-style: none;
+  padding-right: 7px;
+}
+
+.NavLinks li:last-child {
+border: none;
+}
+
+.CalMain {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-inline: 19px;
 }
 
 code {
@@ -65,4 +94,32 @@ code {
   color: #fff;
   padding-inline: 3px;
   font-size: 27px;
+}
+
+.CalContainer{
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-inline: 19px;
+}
+
+.homeDesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
