@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 19px;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.NavLinks {
+  display: flex;
+  gap: 5px;
+}
+
+.NavLinks li {
+  list-style: none;
+  padding-right: 7px;
+}
+
+.NavLinks li:last-child {
+  border: none;
+}
+
+.CalMain {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-inline: 19px;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+.btn-row {
+  display: flex;
+}
+
+.btn {
+  width: 85px;
+  height: 55px;
+  border: 1px solid #d3d3d3;
+  font-weight: 700;
+}
+
+.btn-last {
+  background: #f8943c;
+}
+
+.btn-zero {
+  width: 170px;
+}
+
+.screen {
+  width: 340px;
+  background: #888494;
+  height: 55px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.screen p {
+  color: #fff;
+  padding-inline: 3px;
+  font-size: 27px;
+}
+
+.CalContainer {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-inline: 19px;
+  margin-top: 33px;
+  align-items: center;
+}
+
+.homeDesc {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 29px;
+  width: 71%;
+  border-radius: 19px;
+}
+
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 29px;
+  width: 45%;
+  border-radius: 19px;
+  height: 25%;
+  margin: auto;
+  font-size: 19px;
+}
+
+.NavLink {
+  text-decoration: none;
+  margin-right: 5px;
+  padding: 7px;
+  padding-block: 3px;
+  color: black;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.NavLink:hover {
+  background: #f8943c;
+  font-size: 1.1rem;
+  transition: linear 0.5s;
+}
+
+.NavTitle {
+  color: #f8943c;
+}
+
+.NavLinksDiv {
+  padding-top: 7px;
+}
+
+.calculator-wrapper {
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subTitle {
+  font-size: 29px;
+  font-weight: 500;
+  margin: auto;
+}
+
+.quotor {
+  color: #f8943c;
+}
