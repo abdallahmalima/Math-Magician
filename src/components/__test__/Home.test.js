@@ -8,6 +8,6 @@ it('check if home page heading text render', () => {
 });
 
 it('check component match with snapshot', () => {
-  const homeComponent= render(<Home />);
-   expect(homeComponent).toMatchSnapshot();
- });
+  const homeComponent = render(<Home />);
+  expect(homeComponent).toMatchSnapshot();
+});

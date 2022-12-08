@@ -50,7 +50,4 @@ describe('Test caliculate function,check if all operations works', () => {
     calObj = calculate(calObj, '=');
     expect(calObj.total).toBe('5');
   });
-  
-
-
 });

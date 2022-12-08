@@ -25,6 +25,6 @@ it('it add 7 and 3 By click button', () => {
 });
 
 it('check component match with snapshot', () => {
- const calComponent= render(<Calculator />);
+  const calComponent = render(<Calculator />);
   expect(calComponent).toMatchSnapshot();
 });
