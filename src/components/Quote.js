@@ -1,12 +1,17 @@
-const Quote = () => (
+import { useContext } from 'react';
+import MyContext from '..';
+
+const Quote = () => {
+  const { name, description } = useContext(MyContext);
+
+  return (
     <div className='quoteContainer'>
            <h4 className='quoteText'>
-            “<i className='quotor'>Mathematics</i> is not about numbers, equations,
-             computations or algorithms; it's about
-              understanding.” <i className='quotor'>--William Paul Thurston</i>
+            “<i className='quotor'>Mathematics</i>{' '}{description} <i className='quotor'>--{name}</i>
             </h4>
     </div>
 
-);
+  );
+};
 
 export default Quote;
